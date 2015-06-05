@@ -1,0 +1,110 @@
+<div id="Div5" class="navbar navbar-fixed-top FP-filter-header">
+            <div class="container">
+                <!-- view section -->
+                <div id="Div6" class="pull-left view-section">
+                    <div id="Div7" class="pull-left view-holder view-first view-holder-active" tabindex="0">
+                        <div class="view-icon">
+                            <i class="fa fa-bars fa-lg"></i>
+                        </div>
+                        <div class="view-text">
+                        <a ui-sref=".Grid">  Grid</a></div>
+                    </div>
+                    <a id="Div8" class="pull-left view-second view-holder" tabindex="0" ui-sref=".box">
+                        <div class="view-icon">
+                            <i class="fa fa-th fa-lg"></i>
+                        </div>
+                        <div class="view-text">
+                            Box
+                            </div>
+                    </a>
+                    <div id="Div9" class="pull-left view-third view-holder" tabindex="0">
+                        <div class="view-icon">
+                            <i class="fa fa-dot-circle-o fa-lg"></i>
+                        </div>
+                        <div class="view-text">
+                            <a ui-sref=".Scatter">  Scatter</a>  Scatter</div>
+                    </div>
+                </div>
+                <!-- view section ends-->
+                
+                <!-- toggle section -->
+                <!-- toggle section ends -->
+                
+                <!-- filter section -->
+                <div id="Div10" class="pull-left menu-main-filter">
+                    <div class="filter-label-main hidden">
+                        Select Category
+                        <label class="pull-right selectpicker-label">
+                            <input id="Checkbox1" type="checkbox" checked="checked" tabindex="11">
+                            <span>Select All</span></label>
+                    </div>
+                    <!-- Select dropdown shall be created here dynamically -->
+                <select id="Select1" class="clearfix selectpicker multi-select-dd" multiple="" data-selected-text-format="count > 2" data-width="auto" data-size="6" style="display: none;"><option selected="selected">LargeCap</option><option>Mid/SmallCap</option><option>Diversified</option><option>ELSS</option><option>Sector</option><option>Speciality</option><option>Commodity</option><option>ETF/Index</option><option>Fund of Funds</option><option>LongTermIncome/Gilt</option><option>ShortTermIncome/Gilt</option><option>UltraShortTerm/Liquid</option><option>Balanced (Debt Oriented)</option><option>Balanced (EQ Oriented)</option><option>Arbitrage (Debt Oriented)</option><option>Arbitrage (EQ Oriented)</option><option>Asset Allocation</option><option>MIP (Aggressive)</option><option>MIP (Conservative)</option><option>FTP/FMP</option><option>International</option></select><div class="btn-group bootstrap-select show-tick clearfix multi-select-dd" style="width: 230px;"><button type="button" class="btn dropdown-toggle selectpicker btn-default btn-sm" data-toggle="dropdown" data-id="SUBCAT-dd" title="LargeCap"><span class="filter-option pull-left">LargeCap</span>&nbsp;<span class="caret"></span></button><div class="dropdown-menu open" style="min-width: 0px;"><ul class="dropdown-menu inner selectpicker" role="menu"><li rel="0" class="selected"><a tabindex="0" class="" style=""><span class="text">LargeCap</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li><li rel="17"><a tabindex="0" class="" style=""><span class="text">MIP (Aggressive)</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li><li rel="18"><a tabindex="0" class="" style=""><span class="text">MIP (Conservative)</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li><li rel="19"><a tabindex="0" class="" style=""><span class="text">FTP/FMP</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li><li rel="20"><a tabindex="0" class="" style=""><span class="text">International</span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li></ul></div></div></div>
+                <div class="filter-driver-holder pull-left">
+                    <div id="Div11" title="Shortlist mutual funds using more than 50 filters" class="pull-left filter-section" data-toggle="collapse" data-target="#filter-dropdown-holder" tabindex="12">
+                        <i id="I2" class="fa fa-filter fa-lg"></i><span id="Span2">&nbsp;Filters  &nbsp;</span> <i id="I3" class="fa fa-caret-down fa-lg">
+                            </i>
+                    </div>
+                </div>
+                <!-- filter section ends -->
+                <div id="Div12" class="pull-left output-preview">
+                    <div class="pull-left num-label-holder">
+                        
+                        <div id="Div13" class="selected-num">Showing <span class="badge badge-info-c">108</span></div>
+                        <div id="Div14" class="selected-num">of 2304 funds</div>
+                        
+                    </div>
+                    <div class="pull-left angle-div">
+                        <i class="fa fa-angle-right fa-2x"></i>
+                    </div>
+                    <div class="return-scale-container pull-left tooltip-el" data-toggle="popover" data-content="Marker shows the AUM weighted 2 yr. return of filtered funds. The scale marks the min, max and average returns of all funds." data-original-title="Selection Efficiency">
+                        <div class="return-bar-labels pull-left">
+                            <small id="Small1" class="pull-right">-19%</small>
+                        </div>
+                        <div class="pull-left return-container">
+                            <!-- This width is calculated based on left-right divs and filled portions -->
+                            <!-- if val>=0, neg-width + pos-width * green-bar-width -->
+                            <!-- if val<0, neg-width * (1-neg-bar-width) -->
+                            <div id="Div15" class="return-val-num clearfix" style="width: 68%;">
+                                <span id="Span3" class="result-text color-green" style="visibility: visible;">25.1%</span>
+                            </div>
+                            <div class="clearfix" style="width: 100%;">
+                                <div id="Div16" class="return-val-marker marker-curr pull-left" style="visibility: visible; width: 56%;">
+                                    <i class="fa fa-map-marker fa-lg"></i>
+                                </div>
+                            </div>
+                            <div class="clearfix return-bar-container">
+                                <div class="return-bar-container-left pull-left" style="width: 23%;">
+                                </div>
+                                <div class="return-bar-container-right pull-left" style="width: 77%;">
+                                </div>
+                            </div>
+                            <div class="clearfix return-avg-val" style="width: 46%;">
+                                <small>Avg </small><i class="fa fa-caret-up fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="return-bar-labels pull-left">
+                            <small id="Small2" class="pull-left">63.5%</small>
+                        </div>
+                    </div>
+                </div>
+                <!-- load/save/compare section -->
+                <div id="Div17" class="pull-left compare-section dropdowntooltip-el" data-toggle="popover" data-content="Add funds from below for comparison. Click GO once you have added the funds." data-original-title="Compare funds bucket">
+                    <div class="compare-dropdown-driver" data-toggle="dropdown">
+                        <i class="fa fa-bar-chart-o fa-lg"></i><span id="Span4">&nbsp;Compare</span>
+                    </div>
+                </div>
+                <!--<div id="loadsave-holder" title="Save filters. Apply saved filters." class="pull-right save-load-section dropdown">
+                <div class="pull-left save-load-driver" data-toggle="dropdown">
+                    <i class="fa fa-download fa-lg"></i>
+                    <!--<span>Load/Save</span>-->
+                
+                <!--</div>
+                <ul id="saveload-list" class="dropdown-menu pull-right" role="menu">
+                    <li class="comp-item">Save</li>
+                </ul>
+            </div> -->
+                <!-- load/save/compare section ends -->
+            </div>
+        </div>
+<div ui-view></div>
